@@ -39,3 +39,21 @@ Some key reasons why it is so important in the Software Development Life Cycle (
 - Requirement Documentation: All gathered and elicited requirements are written down clearly and in an organized way. This helps developers, designers, and testers refer to a common document.
 - Requirement Analysis and Modeling: In this step, the team studies the requirements to check if they are clear, complete, and possible to achieve. Diagrams and models may be created to show how the system will work.
 - Requirement Validation: This step makes sure that the documented requirements match what users and clients actually want. It helps confirm that the system will meet real needs before development begins.
+
+## Types of Requirements
+
+### Functional Requirements  
+Functional requirements describe what the system must do. They specify actions, services or tasks that the system will perform. Examples of functional requirements for our booking management system include:
+- The system must allow a user to search available rooms or slots based on date, location, and other filters.  
+- The system must allow a user to make a booking by selecting an available slot, providing required details, and confirming payment.  
+- The system must allow an administrator to approve or reject booking requests.  
+- The system must allow a user to view, modify or cancel their existing bookings.  
+- The system must generate and send booking confirmation notifications to the user after a successful booking.
+
+### Non-functional Requirements  
+Non-functional requirements describe how the system must behave or the qualities it must have. They define attributes such as performance, usability, reliability and security. Examples of non-functional requirements for our booking management system include:
+- Performance: The system should respond to search requests and display results within 2 seconds for 95% of user queries.  
+- Availability: The system should be available (up and running) at least 99.9% of the time in a month.  
+- Security: User personal data and payment information must be encrypted and stored securely; only authorized staff may access administrative functions.  
+- Usability: The booking interface should be simple and mobile-friendly, enabling users to complete a booking in three steps or fewer.  
+- Scalability: The system should handle at least 10,000 concurrent users without performance degradation, allowing room for future growth.
