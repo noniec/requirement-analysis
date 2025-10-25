@@ -32,3 +32,10 @@ Some key reasons why it is so important in the Software Development Life Cycle (
 - Saves Time and Cost: Finding and fixing mistakes in requirements early is much cheaper than correcting them later during coding or testing. Good requirement analysis reduces rework and helps finish projects faster.
 - Improves Software Quality: When requirements are clear and correct, the final product is more useful, reliable, and user-friendly. It ensures that the system meets both business needs and user expectations.
 - Better Planning and Communication: Well-defined requirements help in estimating time, cost, and resources more accurately. It also improves communication between developers and stakeholders.
+
+## Key Activities in Requirement Analysis
+- Requirement Gathering: This is the first step where information is collected from users, clients, and other stakeholders. The goal is to understand what they need from the system.
+- Requirement Elicitation: This means asking the right questions and using methods like interviews, surveys, and meetings to bring out the real needs of users. It helps to discover both stated and hidden requirements.
+- Requirement Documentation: All gathered and elicited requirements are written down clearly and in an organized way. This helps developers, designers, and testers refer to a common document.
+- Requirement Analysis and Modeling: In this step, the team studies the requirements to check if they are clear, complete, and possible to achieve. Diagrams and models may be created to show how the system will work.
+- Requirement Validation: This step makes sure that the documented requirements match what users and clients actually want. It helps confirm that the system will meet real needs before development begins.
