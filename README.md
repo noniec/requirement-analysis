@@ -57,3 +57,20 @@ Non-functional requirements describe how the system must behave or the qualities
 - Security: User personal data and payment information must be encrypted and stored securely; only authorized staff may access administrative functions.  
 - Usability: The booking interface should be simple and mobile-friendly, enabling users to complete a booking in three steps or fewer.  
 - Scalability: The system should handle at least 10,000 concurrent users without performance degradation, allowing room for future growth.
+
+## Use Case Diagrams
+A Use Case Diagram shows how users (called actors) interact with a system. It helps everyone understand what the system does and who uses it.Benefits of use case diagrams include:
+- They give a simple visual overview of system functions.  
+- They help identify the main users (actors) of the system.  
+- They make communication between developers and clients easier.  
+- They act as a guide when designing and testing the system.
+
+### Use Case Diagram for Booking Management System
+Below is the use case diagram showing the main actors and their interactions with the system.
+
+![Use Case Diagram for Booking Management System](./diagrams/alx-booking-uc.png)
+
+Actors:
+- Customer: Searches, books, and cancels reservations.  
+- Admin: Manages availability and approves or rejects bookings.  
+- System: Sends confirmations and notifications automatically.
