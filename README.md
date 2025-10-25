@@ -74,3 +74,22 @@ Actors:
 - Customer: Searches, books, and cancels reservations.  
 - Admin: Manages availability and approves or rejects bookings.  
 - System: Sends confirmations and notifications automatically.
+
+## Acceptance Criteria
+Acceptance Criteria are the specific conditions or rules that a software feature must meet to be accepted by the client or end user. They describe how a feature should work and what results are expected when it is used correctly.
+
+### Importance of Acceptance Criteria
+- They help developers and testers understand what the feature must do before development starts.  
+- They ensure everyone (developers, testers, and clients) has the same understanding of what “done” means.  
+- They make testing easier because they provide clear success conditions.  
+- They reduce misunderstandings and rework by setting clear expectations early.  
+
+### Example: Checkout Feature in Booking Management System
+Feature:Checkout and Payment Process
+Acceptance Criteria
+1. When a user proceeds to checkout after selecting a room, the system must display the booking summary (room details, price, and total cost).  
+2. The user must be able to choose a payment method (e.g., credit card, PayPal, or bank transfer).  
+3. The system must validate payment details before processing the transaction.  
+4. When payment is successful, the system must generate a booking confirmation and send an email notification to the user.  
+5. If payment fails, the system must display an error message and allow the user to retry.  
+6. The booking should appear under the user’s “My Bookings” section after a successful payment.
